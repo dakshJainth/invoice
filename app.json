@@ -14,14 +14,16 @@
     "scheme": "sora",
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package":"com.reactnaitve.invoice"
+      
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.jsm.sora"
+      "package": "com.reactnaitve.invoice"
     },
     "web": {
       "favicon": "./assets/favicon.png"
